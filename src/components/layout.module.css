@@ -1,0 +1,1031 @@
+a {
+  text-decoration: none;
+}
+
+.hamburger-grid-layer {
+  grid-area: 1/1;
+  position: relative;
+  display: grid;
+  height: 50px;
+}
+
+.home-page-header {
+  background: linear-gradient(
+    180deg,
+    #000000 0%,
+    rgba(0, 0, 0, 0) 40.63%,
+    #00000000 81.77%
+  );
+  grid-area: 1/1;
+  position: relative;
+  justify-items: center;
+  align-items: start;
+  display: grid;
+}
+.home-page-header > div > h1 {
+  font-weight: 100;
+  font-size: clamp(1.9rem, 8vw, 18rem);
+  /* margin-top: -270px; */
+  letter-spacing: 11px;
+  text-transform: uppercase;
+  margin: 13vh 0 0 0;
+}
+.home-page-header > div > h2 {
+  font-weight: 100;
+  font-size: clamp(1.5rem, 5vw, 18rem);
+  /* margin-top: -270px; */
+  letter-spacing: 11px;
+  text-transform: uppercase;
+  margin: 0;
+  text-align: center;
+}
+.home-category-blocks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+.home-category-block {
+  grid-area: 1/1;
+  position: relative;
+  place-items: center;
+  display: grid;
+  background: linear-gradient(
+    181.55deg,
+    rgba(33, 33, 33, 0.47) 8.99%,
+    #212121 51.55%,
+    rgba(33, 33, 33, 0.48) 98.68%
+  );
+  margin: 6px 8px;
+  padding: 9px 6px;
+  border: 1px solid #6b6b6b;
+}
+.home-category-name {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: clamp(0.9rem, 2vw, 7rem);
+  margin: 0;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.home-p {
+  padding: 10px;
+  line-height: 22px;
+  color: #999999;
+  text-align: justify;
+  position: relative;
+  background: black;
+}
+
+.home-h1 {
+  font-weight: 200;
+  margin-left: 6px;
+}
+.home-h2 {
+  font-weight: 200;
+  font-size: 1.2rem;
+  margin-left: 6px;
+}
+
+.home-offer-list-boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  margin: 20px 0;
+}
+.home-offer-detail-offer {
+  color: #ffffff;
+  font-size: 16px;
+  background: #131313;
+  border: 1px solid #7b7b7b;
+  box-sizing: border-box;
+  border-radius: 25px;
+  padding: 15px;
+  margin: 0 8px 10px 8px;
+}
+.home-offer-detail-top-row {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  place-items: center start;
+}
+.home-offer-detail-circle img {
+  border-radius: 50%;
+}
+.home-offer-detail-offer-title {
+  color: #ffffff;
+}
+.home-offer-detail-venue-name {
+  color: rgba(255, 168, 0, 1);
+  font-size: 14px;
+}
+.home-offer-detail-offer-description {
+  font-weight: 200;
+  font-size: 0.9rem;
+}
+.home-member-screen-demo {
+  max-width: 600px;
+  border: solid 20px #222;
+  margin: 2;
+  margin: 20px auto;
+}
+
+.info-page-header {
+  background: linear-gradient(
+    180deg,
+    #000000 0%,
+    rgba(0, 0, 0, 0) 40.63%,
+    #000000 81.77%
+  );
+  grid-area: 1/1;
+  position: relative;
+  place-items: center;
+  display: grid;
+}
+.info-page-header > h1 {
+  font-weight: 100;
+  font-size: clamp(2.6rem, 15vw, 18rem);
+  margin: 0;
+  letter-spacing: 11px;
+  text-transform: uppercase;
+}
+.info-page-content {
+  margin-top: -12vh;
+  position: relative;
+  padding: 0 10px;
+}
+.info-page-content > h2 {
+  font-size: 1rem;
+}
+.info-page-content > p {
+  line-height: 22px;
+  color: #999999;
+  text-align: justify;
+}
+.info-page-content > ol {
+  text-align: center;
+  list-style-position: inside;
+  padding: 0;
+}
+.how-it-works-header {
+  background: linear-gradient(
+    180deg,
+    #000000 0%,
+    rgba(0, 0, 0, 0) 40.63%,
+    #000000 81.77%
+  );
+  padding: 30px 0 0 0;
+  grid-area: 1/1;
+  position: relative;
+  place-items: center;
+  display: grid;
+  padding: 400px 20px 20px 20px;
+}
+.how-it-works-header > h1 {
+  color: #ffffff;
+  font-weight: 100;
+  font-size: clamp(2.6rem, 8vw, 6rem);
+  margin: 0;
+  letter-spacing: 11px;
+  text-transform: uppercase;
+}
+
+.how-p {
+  margin-left: 10px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #999999;
+  text-align: justify;
+}
+.how-it-works-retailer-box {
+  display: grid;
+  grid-template-columns: 1fr 60px;
+  max-width: 500px;
+}
+.how-it-works-retailer-name > span {
+  font-weight: 300;
+}
+
+.offer-category-block {
+  background: linear-gradient(
+    181.55deg,
+    rgba(33, 33, 33, 0.47) 8.99%,
+    #212121 51.55%,
+    rgba(33, 33, 33, 0.48) 98.68%
+  );
+  position: relative;
+}
+.offer-category-name {
+  color: #ffffff;
+  font-weight: 100;
+  font-size: clamp(2.4rem, 9vw, 7rem);
+  margin: 0;
+  letter-spacing: 11px;
+  text-transform: uppercase;
+}
+.offer-category-description {
+  color: #dbd8d8;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 10px;
+  padding: 13px 15px 30px 10px;
+  text-align: justify;
+}
+/* offer-category-header used in multiple places. Make generic? */
+.offer-category-header {
+  background: linear-gradient(
+    180deg,
+    #000000 0%,
+    rgba(0, 0, 0, 0) 40.63%,
+    #000000 81.77%
+  );
+  /* grid layer for title and desc  */
+  grid-area: 1/1;
+  position: relative;
+  place-items: center;
+  display: grid;
+  padding-top: 55px;
+}
+.offer-category-header-description {
+  color: #dbd8d8;
+  padding: 0 12px 0 12px;
+  text-align: justify;
+}
+
+.offer-list-boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+}
+
+.offer-list-box {
+  background: #131313;
+  border: 1px solid #7b7b7b;
+  box-sizing: border-box;
+  border-radius: 25px;
+  margin: 15px 8px;
+  padding: 12px 13px 20px;
+  position: relative;
+}
+.offer-list-box-title {
+  color: #ffffff;
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+.offer-list-box-title > span {
+  color: rgba(255, 168, 0, 1);
+}
+.offer-list-box-description {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.offer-detail-header {
+  background: linear-gradient(
+    180deg,
+    #000000 0%,
+    rgba(0, 0, 0, 0) 40.63%,
+    #000000 81.77%
+  );
+  /* grid layer for title and desc  */
+  grid-area: 1/1;
+  position: relative;
+  place-items: center;
+  display: grid;
+  padding-top: 222px;
+}
+.offer-detail-offer {
+  color: #ffffff;
+  font-size: 16px;
+  background: #131313;
+  border: 1px solid #7b7b7b;
+  box-sizing: border-box;
+  border-radius: 25px;
+  padding: 15px;
+  margin: 0 8px 10px 8px;
+}
+.offer-detail-top-row {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  place-items: center start;
+}
+
+.offer-detail-circle img {
+  border-radius: 50%;
+}
+.offer-detail-offer-title {
+  color: #ffffff;
+  font-size: 16px;
+}
+.offer-detail-offer-description {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.offer-detail-venue-block {
+  margin: 15px;
+}
+.offer-detail-venue-name {
+  color: rgba(255, 168, 0, 1);
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.offer-detail-venue-description {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+
+.club-list-header {
+  background: linear-gradient(
+    180deg,
+    #000000 0%,
+    rgba(0, 0, 0, 0) 40.63%,
+    #000000 81.77%
+  );
+  padding: 30px 0 0 0;
+  grid-area: 1/1;
+  position: relative;
+  place-items: center;
+  display: grid;
+  padding: 400px 8px 20px 8px;
+}
+.club-list-title {
+  color: #ffffff;
+}
+.club-list-description {
+  color: #ffffff;
+  font-weight: 200;
+}
+.club-list-boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+}
+.club-list-venue {
+  color: #ffffff;
+  font-weight: 200;
+  font-size: 28px;
+  letter-spacing: 11px;
+  text-transform: uppercase;
+  grid-area: 1/1;
+  position: relative;
+  place-items: center start;
+  display: grid;
+  padding: 10px;
+}
+
+.club-nights-header {
+  background: linear-gradient(
+    180deg,
+    #000000 0%,
+    rgba(0, 0, 0, 0) 40.63%,
+    #000000 81.77%
+  );
+  /* grid layer for title and desc  */
+  grid-area: 1/1;
+  position: relative;
+  place-items: center;
+  display: grid;
+  padding-top: 55px;
+}
+.club-nights-venue-name {
+  color: #ffffff;
+  font-weight: 100;
+  font-size: clamp(2.6rem, 8vw, 6rem);
+  margin: 0;
+  letter-spacing: 11px;
+  text-transform: uppercase;
+}
+.club-nights-header-description {
+  color: #dbd8d8;
+  padding: 0 10px 0 10px;
+  text-align: justify;
+}
+.club-nights-boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+.club-nights-box {
+  background: linear-gradient(
+    181.55deg,
+    rgba(33, 33, 33, 0.47) 8.99%,
+    #212121 51.55%,
+    rgba(33, 33, 33, 0.48) 98.68%
+  );
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  margin: 10px;
+}
+/* each coloured box */
+.club-nights-box > div:first-of-type {
+  width: 80px;
+  height: 80px;
+  font-weight: 200;
+  text-align: center;
+  margin: 5px;
+  font-size: 50px;
+  color: white;
+}
+.club-nights-icon-monday {
+  background: linear-gradient(180deg, #c5d33e 0%, #42a540 100%);
+}
+.club-nights-icon-tuesday {
+  background: linear-gradient(180deg, #b3cce9 0%, #0373c8 100%);
+}
+.club-nights-icon-wednesday {
+  background: linear-gradient(180deg, #de9fae 0%, #e70f50 100%);
+}
+.club-nights-icon-thursday {
+  background: linear-gradient(180deg, #c5d33e 0%, #42a540 100%);
+}
+.club-nights-icon-friday {
+  background: linear-gradient(180deg, #c5d33e 0%, #42a540 100%);
+}
+.club-nights-icon-saturday {
+  background: linear-gradient(180deg, #c5d33e 0%, #42a540 100%);
+}
+.club-nights-icon-sunday {
+  background: linear-gradient(180deg, #c5d33e 0%, #42a540 100%);
+}
+.club-nights-details {
+  position: relative;
+  padding: 6px 0;
+}
+.club-nights-name {
+  color: #ffffff;
+  font-size: 16px;
+}
+.club-nights-description {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 1.2;
+}
+.club-nights-day {
+  color: #b6b6b6;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 4px;
+  right: 6px;
+}
+.club-nights-hours {
+  color: #ffffff;
+  font-size: 10px;
+  line-height: 22px;
+  position: absolute;
+  bottom: 4px;
+}
+
+.club-night-detail-header-monday {
+  background: linear-gradient(180deg, #c5d33e 0%, #42a540 100%);
+}
+.club-night-detail-header-tuesday {
+  background: linear-gradient(180deg, #b3cce9 0%, #0373c8 100%);
+}
+.club-night-detail-header-wednesday {
+  background: linear-gradient(180deg, #b3cce9 0%, #0373c8 100%);
+}
+.club-night-detail-header-thursday {
+  background: linear-gradient(180deg, #b3cce9 0%, #0373c8 100%);
+}
+.club-night-detail-header-friday {
+  background: linear-gradient(180deg, #b3cce9 0%, #0373c8 100%);
+}
+.club-night-detail-header-saturday {
+  background: linear-gradient(180deg, #b3cce9 0%, #0373c8 100%);
+}
+.club-night-detail-header-sunday {
+  background: linear-gradient(180deg, #b3cce9 0%, #0373c8 100%);
+}
+.club-night-detail-name {
+  font-weight: 200;
+  text-align: center;
+  font-size: 3rem;
+  margin: 80px 0 0;
+  line-height: 1;
+}
+.club-night-detail-club {
+  font-weight: 200;
+  font-size: 1.2rem;
+  letter-spacing: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.club-night-detail-box {
+  margin-top: -20px;
+  position: relative;
+  padding: 40px 15px;
+  font-weight: 200;
+  background: #000000;
+  border-radius: 25px 25px 0px 0px;
+}
+.club-night-detail-day {
+  color: #b6b6b6;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+.club-night-detail-hours {
+  color: #b6b6b6;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  line-height: 22px;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+.club-night-detail-request {
+  text-align: right;
+}
+.club-night-detail-request a {
+  color: rgba(255, 168, 0, 1);
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.location-details-block {
+  color: #ffffff;
+  margin: 50px 15px 0 15px;
+  font-weight: 200;
+}
+.location-details-block hr {
+  border-style: solid;
+  color: #363636;
+  border-width: 1px;
+}
+.location-detail-address-hours {
+  display: grid;
+  grid-gap: 4px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+.location-detail-venue-address {
+  color: #ffffff;
+  font-weight: 200;
+  font-size: 14px;
+}
+.location-detail-venue-hours {
+  color: #ffffff;
+  font-weight: 200;
+  font-size: 14px;
+}
+.location-icons {
+  height: 47px;
+  display: grid;
+  grid-template-columns: 60px 60px 60px 60px;
+  margin: 5px 0 5px 0;
+}
+.location-icons div {
+  justify-content: left;
+  align-items: center;
+  display: grid;
+}
+
+.login-page-content {
+  position: relative;
+  padding: 0 10px;
+}
+.login-page-content > h1 {
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+.login-page-content > p {
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+.profile-page-content {
+  position: relative;
+  padding: 0 10px;
+}
+.profile-card {
+  background: #131313;
+  border: 1px solid #dddcdc;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 25px;
+  max-width: 370px;
+}
+.profile-card img {
+  border-radius: 50%;
+}
+.profile-card-big-number {
+  font-size: 1.2rem;
+  text-align: right;
+  margin: 10px 0;
+}
+.profile-card-name {
+  font-size: 18px;
+  text-align: right;
+}
+.profile-card-note {
+  font-size: 12px;
+  color: rgba(255, 168, 0, 1);
+  text-align: right;
+}
+.profile-h1 {
+  font-weight: 200;
+  font-size: 1rem;
+}
+.profile-h2 {
+  font-weight: 200;
+  font-size: 0.9rem;
+  margin: 10px;
+}
+.profile-list-status-box {
+  background: linear-gradient(
+    181.55deg,
+    rgba(33, 33, 33, 0.47) 8.99%,
+    #212121 51.55%,
+    rgba(33, 33, 33, 0.48) 98.68%
+  );
+  color: white;
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  position: relative;
+  height: 90px;
+  margin: 10px;
+  padding: 5px;
+}
+.profile-list-status-box > div:first-of-type {
+  width: 50px;
+  height: 50px;
+  font-weight: 200;
+  text-align: right;
+  margin: 5px;
+  font-size: 50px;
+  line-height: 1;
+  color: white;
+}
+.profile-list-status-night {
+  font-size: 14px;
+}
+/* .profile-list-status-club {
+  font-size: 14px;
+} */
+.profile-list-status-date {
+  line-height: 22px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.profile-list-status-time {
+  font-size: 10px;
+}
+.profile-list-status-status {
+  font-size: 11px;
+  text-transform: uppercase;
+  position: absolute;
+  left: 10px;
+  bottom: 5px;
+}
+.profile-list-status-pending {
+  color: rgb(214, 214, 214);
+}
+.profile-list-status-rejected {
+  color: rgb(243, 3, 3);
+}
+.profile-list-status-accepted {
+  color: rgb(30, 206, 14);
+}
+/* .profile-list-status-cancel {
+  font-size: 10px;
+  color: #a3a3a3;
+} */
+.profile-list-status-link {
+  font-size: 11px;
+  text-transform: uppercase;
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+  color:#ffffff;
+}
+.profile-more-clubs-box {
+  background: linear-gradient(
+    181.55deg,
+    rgba(33, 33, 33, 0.47) 8.99%,
+    #212121 51.55%,
+    rgba(33, 33, 33, 0.48) 98.68%
+  );
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  margin: 10px;
+  padding: 10px;
+  height: 20px;
+}
+.profile-more-clubs-box a {
+  font-size: 12px;
+  color:#ffffff;
+}
+.profile-logout {
+  font-size: 12px;
+  text-transform: uppercase;
+  position: absolute;
+  left: 10px;
+  color:#ffffff;
+}
+.profile-more-clubs-link {
+  font-size: 12px;
+  text-transform: uppercase;
+  position: absolute;
+  right: 10px;
+  color:#ffffff;
+}
+.signup-content {
+  position: relative;
+  padding: 0 10px;
+}
+.signup-content > h2 {
+  font-size: 1rem;
+}
+
+.profile-edit-selfie-overlay {
+  display: grid;
+  grid-area: 1/1;
+  --circle-radius: 140px;
+  height: 100%;
+  width: 100%;
+  --mask: radial-gradient(
+      circle farthest-side at center center,
+      transparent var(--circle-radius),
+      #000 calc(var(--circle-radius) + 2px) 100%
+    )
+    50% 50%/100% 100% no-repeat;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+  background: #000;
+}
+.profile-edit-block {
+  padding: 0 10px;
+  position: relative;
+}
+.profile-edit-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 25px;
+  margin: 12px 5px 0px 5px;
+}
+.profile-edit-full-width {
+  grid-column: 1 / span 2;
+}
+
+.footer-member {
+  position: fixed;
+  bottom: 0;
+  background: black;
+  color: white;
+  width: calc(100vw - 20px);
+}
+.footer-member  a {
+  color: white;
+}
+.footer-member-block {
+  /* padding:3px 0; */
+  height: auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  /* place-items: center; */
+}
+.footer-member-icon {
+  display: grid;
+}
+
+.stripe-form-card-join {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 25px;
+  margin: 12px 5px 0px 5px;
+}
+.stripe-form-card-join > p {
+  grid-column: 1 / span 2;
+  font-size: 0.8rem;
+  margin: 15px 0 0 0;
+  text-align: justify;
+}
+
+.stripe-label {
+  grid-column: 1 / span 2;
+  margin: 6px 0;
+  font-size: 0.9rem;
+}
+.stripe-label > div,
+.stripe-label > input {
+  display: block;
+  color: white;
+  background: #ffffff;
+  border-radius: 4px;
+  border: 1px solid rgba(101, 67, 16, 1);
+  padding: 10px 12px;
+  font-size: 1rem;
+  width: calc(100% - 24px);
+  max-width: 600px;
+  height: 17px;
+}
+.stripe-form-button {
+  background: rgba(255, 168, 0, 1);
+  color: #ffffff;
+  border-radius: 0 0 4px 4px;
+  border: 0;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  display: block;
+  transition: all 0.2s ease;
+  grid-column: 1 / span 2;
+  margin: 10px 0;
+}
+.stripe-join-status {
+  grid-column: 1 / span 2;
+}
+.stripe-card-error {
+  grid-column: 1 / span 2;
+  color: rgb(105, 115, 134);
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 12px;
+  text-align: center;
+}
+.spinner,
+.spinner:before,
+.spinner:after {
+  border-radius: 50%;
+}
+.spinner {
+  color: #ffffff;
+  font-size: 22px;
+  text-indent: -99999px;
+  margin: 0px auto;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  box-shadow: inset 0 0 0 2px;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.spinner:before,
+.spinner:after {
+  position: absolute;
+  content: "";
+}
+.spinner:before {
+  width: 10.4px;
+  height: 20.4px;
+  background: #5469d4;
+  border-radius: 20.4px 0 0 20.4px;
+  top: -0.2px;
+  left: -0.2px;
+  -webkit-transform-origin: 10.4px 10.2px;
+  transform-origin: 10.4px 10.2px;
+  -webkit-animation: loading 2s infinite ease 1.5s;
+  animation: loading 2s infinite ease 1.5s;
+}
+.spinner:after {
+  width: 10.4px;
+  height: 10.2px;
+  background: #5469d4;
+  border-radius: 0 10.2px 10.2px 0;
+  top: -0.1px;
+  left: 10.2px;
+  -webkit-transform-origin: 0px 10.2px;
+  transform-origin: 0px 10.2px;
+  -webkit-animation: loading 2s infinite ease;
+  animation: loading 2s infinite ease;
+}
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+#card-error {
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 12px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin: 6px 0;
+  font-size: 0.9rem;
+}
+input {
+  display: block;
+  color: white;
+  background: #212121;
+  border-radius: 4px;
+  border: 1px solid rgba(101, 67, 16, 1);
+  padding: 0 12px;
+  font-size: 16px;
+  width: calc(100% - 24px);
+  max-width: 600px;
+  height: 48px;
+}
+input:not(:placeholder-shown) {
+  background-color: rgb(232, 240, 254);
+  color: black;
+}
+textarea {
+  display: block;
+  color: white;
+  background: #212121;
+  border-radius: 4px;
+  border: 1px solid rgba(58, 45, 119, 1);
+  padding: 7px 12px;
+  font-size: 16px;
+  width: calc(100% - 24px);
+  max-width: 600px;
+  height: 100px;
+}
+textarea:not(:placeholder-shown) {
+  background-color: rgb(232, 240, 254);
+  color: black;
+}
+.form-button {
+  background: rgba(255, 168, 0, 1);
+  max-width: 624px;
+}
+
+.form-card-join {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 25px;
+  margin: 12px 5px 0px 5px;
+}
+.form-card-join-first-half {
+  grid-column: 1 / span 1;
+}
+.form-card-join-second-half {
+  grid-column: 2 / span 1;
+}
+.form-card-join-full-width {
+  grid-column: 1 / span 2;
+}
+
+.container {
+  margin: auto;
+  /* max-width: 1000px; */
+  font-family: Poppins, sans-serif;
+  color: white;
+  background: black;
+}
+
+.heading {
+  color: rebeccapurple;
+}
+.nav-links {
+  /* display: flex; */
+  list-style: none;
+  padding-left: 0;
+}
+.nav-link-item {
+  padding: 0 1rem 1rem 0;
+}
+.nav-link-text {
+  color: #999999;
+}
+
+body {
+  font-size: 1rem;
+  margin: 0;
+  background: black;
+}
+
+button {
+  background: rgba(255, 168, 0, 1);
+  color: #ffffff;
+  border-radius: 4px 4px 4px 4px;
+  border: 0;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  display: block;
+  transition: all 0.2s ease;
+  grid-column: 1 / span 2;
+  margin: 10px 0;
+}
+
+button:hover {
+  filter: contrast(115%);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
